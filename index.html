@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Команда, яка дає результат · Практичний вебінар | Оксана Винницька</title>
-<meta name="description" content="Практичний вебінар «Команда, яка дає результат» від бізнес-коуча Оксани Винницької. Як знайти, адаптувати та втримати сильних співробітників. Онлайн, 550 грн.">
+<title>Лідерство в умовах змін · Практичний вебінар | Оксана Винницька</title>
+<meta name="description" content="Практичний вебінар «Лідерство в умовах змін» від бізнес-коуча ICF Оксани Винницької. Як побудувати команду, яка бере відповідальність і працює без постійного контролю. 26 листопада о 18:30, онлайн.">
 <meta name="theme-color" content="#000000">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -243,6 +243,17 @@
   .reveal.in{ opacity:1; transform:none; }
   @media (prefers-reduced-motion:reduce){ .reveal{ opacity:1; transform:none; transition:none; } .hero-label .pulse{ animation:none; } }
   @media (max-width:480px){ .hero{ padding-top:110px; } .btn--lg{ padding:20px 24px; font-size:16px; white-space:normal; } .ba-col{ padding:28px; } }
+
+  .hero-sub{ color:var(--gray-3,#bbb); font-size:clamp(16px,1.6vw,19px); line-height:1.5; margin:18px 0 0; max-width:620px; }
+  .bonus-desc{ color:rgba(255,255,255,.72); font-size:14px; line-height:1.45; margin:0; }
+  .note-muted{ margin-top:24px; color:#666; font-size:16px; max-width:720px; }
+  .faq{ display:grid; gap:12px; max-width:860px; }
+  .faq-item{ border:1px solid #e6e6e6; border-radius:16px; padding:18px 22px; background:#fff; }
+  .faq-item summary{ cursor:pointer; font-weight:900; font-size:17px; list-style:none; position:relative; padding-right:32px; }
+  .faq-item summary::-webkit-details-marker{ display:none; }
+  .faq-item summary::after{ content:"+"; position:absolute; right:0; top:-2px; color:var(--orange); font-size:24px; font-weight:900; }
+  .faq-item[open] summary::after{ content:"–"; }
+  .faq-item p{ margin:12px 0 0; color:#555; line-height:1.55; }
 </style>
 </head>
 <body>
@@ -253,17 +264,17 @@
     <a class="logo" href="#top"><img src="logo-black-bg.png" alt="Оксана Винницька · Business Coach"></a>
     <div class="meta"><span>26 листопада · 18:30</span><span>онлайн</span><span><strong>550 грн</strong></span></div>
   </nav>
-
   <div class="hero-glow" aria-hidden="true"></div>
   <div class="container hero-inner">
     <div class="hero-copy">
-      <span class="hero-label"><span class="pulse"></span>Практичний вебінар · 1 вечір</span>
-      <div class="hero-overtitle">Команда, яка дає <span class="accent">результат</span></div>
+      <span class="hero-label"><span class="pulse"></span>Практичний вебінар · онлайн</span>
+      <div class="hero-overtitle">Лідерство в умовах <span class="accent">змін</span></div>
       <div class="hero-rule"></div>
-      <h1>Як перестати втрачати гроші на неправильному наймі та побудувати команду, яка <strong>працює на результат</strong></h1>
-      <div class="hero-meta"><span>26 листопада</span><span>18:30</span><span>онлайн</span><span>550 грн</span></div>
+      <h1>Ваша команда не дає бажаного результату? Почніть не з людей. <strong>Почніть зі свого лідерства.</strong></h1>
+      <p class="hero-sub">Як побудувати ефективну команду, яка бере відповідальність, проявляє ініціативу та працює без постійного контролю керівника.</p>
+      <div class="hero-meta"><span>26 листопада</span><span>18:30</span><span>Zoom · 90–120 хв</span><span>550 грн</span></div>
       <div class="hero-cta">
-        <a href="https://secure.wayforpay.com/button/b9e74ced05035" class="btn btn--lg">Забронювати місце <span class="arrow">→</span></a>
+        <a href="https://secure.wayforpay.com/button/b9e74ced05035" class="btn btn--lg">Зареєструватися <span class="arrow">→</span></a>
         <span class="seats">Живий ефір · місця обмежені</span>
       </div>
     </div>
@@ -274,11 +285,7 @@
         <div>
           <small>Веде вебінар</small>
           <strong>Оксана Винницька</strong>
-          <ul>
-            <li>Бізнес-коуч</li>
-            <li>Топ бізнес-тренерка з продажів та лідерства</li>
-            <li>11-річний досвід у бізнесі</li>
-          </ul>
+          <ul><li>Бізнес-коуч ICF</li><li>Тренерка з лідерства, управління командами та продажів</li><li>120+ компаній-клієнтів</li></ul>
         </div>
       </div>
     </div>
@@ -287,106 +294,41 @@
 
 <section class="gray">
   <div class="container">
-    <div class="section-head"><span class="eyebrow">Знайома ситуація?</span><h2>Вам знайомі <span class="accent">ці ситуації?</span></h2></div>
+    <div class="section-head"><span class="eyebrow">Знайома ситуація?</span><h2>Впізнаєте себе <span class="accent">в цих ситуаціях?</span></h2></div>
     <div class="cards-2">
-      <div class="pain reveal">Люди звільняються через кілька місяців</div>
-      <div class="pain reveal">На співбесіді всі здаються ідеальними</div>
-      <div class="pain reveal">Новачків доводиться постійно контролювати</div>
-      <div class="pain reveal">Команда не проявляє ініціативи</div>
-      <div class="pain reveal">Через помилки співробітників бізнес втрачає гроші</div>
-      <div class="pain reveal">Ви не можете делегувати</div>
+      <div class="pain reveal">Команда чекає ваших рішень</div><div class="pain reveal">Делегування перетворюється на контроль</div><div class="pain reveal">Співробітники не проявляють ініціативи</div><div class="pain reveal">Мотивація нестабільна</div><div class="pain reveal">Відповідальність постійно повертається до вас</div><div class="pain reveal">Конфлікти та непорозуміння</div><div class="pain reveal">Бізнес залежить від вашої особистої участі</div>
     </div>
-    <div class="conclusion reveal">Якщо хоча б 3 пункти про вас правдиві, причина не в людях.<span>Проблема у відсутності системи підбору та адаптації.</span></div>
-  </div>
-</section>
-
-<section class="dark">
-  <div class="container">
-    <div class="section-head"><span class="eyebrow">Ціна помилки</span><h2>Скільки коштує <span class="accent">неправильний співробітник?</span></h2></div>
-    <div class="equation reveal">
-      <span class="tag lead">Неправильний найм</span><span class="op">=</span>
-      <span class="tag">зарплата</span><span class="op">+</span>
-      <span class="tag">податки</span><span class="op">+</span>
-      <span class="tag">навчання</span><span class="op">+</span>
-      <span class="tag">втрачений час</span><span class="op">+</span>
-      <span class="tag">втрачений клієнт</span><span class="op">+</span>
-      <span class="tag">помилки</span><span class="op">+</span>
-      <span class="tag">повторний пошук</span>
-    </div>
-    <div class="cost-stat reveal"><small>Вартість помилки</small><p>від 50 000 до <span class="accent">300 000 грн</span></p></div>
-  </div>
-</section>
-
-<section class="white">
-  <div class="container">
-    <div class="section-head"><span class="eyebrow">Результат</span><h2>Після вебінару <span class="accent">ви зможете</span></h2></div>
-    <ul class="check-list">
-      <li class="reveal">Швидко знаходити сильних кандидатів</li>
-      <li class="reveal">Проводити співбесіду без помилок</li>
-      <li class="reveal">Бачити справжню мотивацію кандидата</li>
-      <li class="reveal">Не брати токсичних людей</li>
-      <li class="reveal">Створити систему адаптації</li>
-      <li class="reveal">Скоротити плинність персоналу</li>
-      <li class="reveal">Делегувати без страху</li>
-      <li class="reveal">Будувати команду, яка приносить прибуток</li>
-    </ul>
+    <div class="conclusion reveal">Можливо, проблема не лише в команді.<span>Можливо, настав час переглянути власну модель управління.</span></div>
   </div>
 </section>
 
 <section class="dark" id="program">
   <div class="container">
-    <div class="section-head"><span class="eyebrow">Програма вебінару</span><h2>Один вечір. <span class="accent">Дві системи.</span></h2></div>
-    <div class="days">
-      <div class="day reveal">
-        <div class="day-top"><div><div class="day-label">Частина 1</div><h3>Підбір персоналу</h3></div><div class="day-num">01</div></div>
-        <ul>
-          <li>Де шукати сильних кандидатів</li>
-          <li>Як проводити співбесіду без помилок</li>
-          <li>Питання, які показують справжню мотивацію</li>
-          <li>Як не взяти «не ту» людину</li>
-        </ul>
-      </div>
-      <div class="day reveal">
-        <div class="day-top"><div><div class="day-label">Частина 2</div><h3>Адаптація та утримання</h3></div><div class="day-num">02</div></div>
-        <ul>
-          <li>Система адаптації: перші 30–60–90 днів</li>
-          <li>KPI новачка</li>
-          <li>Як зробити, щоб люди не звільнялися</li>
-          <li>Мотивація та корпоративна культура</li>
-        </ul>
-      </div>
-    </div>
-    <div class="center"><a href="https://secure.wayforpay.com/button/b9e74ced05035" class="btn btn--lg">Забронювати · 550 грн <span class="arrow">→</span></a></div>
+    <div class="section-head"><span class="eyebrow">Що буде на вебінарі</span><h2>П’ять блоків. <span class="accent">Одна система лідерства.</span></h2></div>
+    <div class="days"><div class="day reveal"><div class="day-top"><div><div class="day-label">Блок 1</div><h3>Лідерство в умовах змін</h3></div><div class="day-num">01</div></div><ul><li>Чому старі моделі управління перестають працювати</li><li>Менеджер і лідер: у чому різниця</li><li>Компетенції сучасного керівника</li><li>Від контролю до довіри та відповідальності</li></ul></div><div class="day reveal"><div class="day-top"><div><div class="day-label">Блок 2</div><h3>Чому команда неефективна</h3></div><div class="day-num">02</div></div><ul><li>Основні причини неефективності</li><li>П’ять дисфункцій команди</li><li>Як ваш стиль управління формує поведінку людей</li><li>Діагностика проблем вашої команди</li></ul></div><div class="day reveal"><div class="day-top"><div><div class="day-label">Блок 3</div><h3>Принципи сильної команди</h3></div><div class="day-num">03</div></div><ul><li>Спільна мета та командні цілі</li><li>Ролі та зони відповідальності</li><li>Довіра і психологічна безпека</li><li>Практика «Цінності моєї команди»</li></ul></div><div class="day reveal"><div class="day-top"><div><div class="day-label">Блок 4</div><h3>Мотивація команди</h3></div><div class="day-num">04</div></div><ul><li>Основні мотиви співробітників</li><li>Чому однакова мотивація не працює для всіх</li><li>Матеріальна та нематеріальна мотивація</li><li>Як адаптувати стиль під мотиви людини</li></ul></div><div class="day reveal"><div class="day-top"><div><div class="day-label">Блок 5</div><h3>Рішення в команді: коучинговий підхід</h3></div><div class="day-num">05</div></div><ul><li>Як розвивати самостійність співробітників</li><li>Як не забирати відповідальність у команди</li><li>Коучингові запитання для управлінця</li><li>Культура відповідальності</li></ul></div></div>
+    <div class="center"><a href="https://secure.wayforpay.com/button/b9e74ced05035" class="btn btn--lg">Зареєструватися · 550 грн <span class="arrow">→</span></a></div>
   </div>
 </section>
 
-<section class="gray">
+<section class="white">
   <div class="container">
-    <div class="section-head"><span class="eyebrow">Матеріали</span><h2>Ви <span class="accent">отримуєте</span></h2></div>
-    <div class="deliv">
-      <div class="reveal"><span>01</span>Шаблон вакансії</div>
-      <div class="reveal"><span>02</span>Чек-лист співбесіди</div>
-      <div class="reveal"><span>03</span>Карта адаптації</div>
-      <div class="reveal"><span>04</span>Система оцінки</div>
-      <div class="reveal"><span>05</span>Питання для інтерв'ю</div>
-      <div class="reveal"><span>06</span>Шаблон Welcome-плану</div>
-      <div class="reveal"><span>07</span>Чек-лист керівника</div>
-      <div class="reveal"><span>08</span>Запис вебінару</div>
-    </div>
+    <div class="section-head"><span class="eyebrow">Результат</span><h2>Що зміниться <span class="accent">після вебінару?</span></h2></div>
+    <ul class="check-list"><li class="reveal">Зрозумієте, які управлінські компетенції розвивати в умовах змін</li><li class="reveal">Побачите основні причини неефективності своєї команди</li><li class="reveal">Зрозумієте, як ваш стиль управління впливає на людей</li><li class="reveal">Знатимете принципи побудови ефективної команди</li><li class="reveal">Розберетеся в мотиваційних потребах співробітників</li><li class="reveal">Отримаєте коучингові запитання для розвитку самостійності</li><li class="reveal">Визначите конкретні напрямки вдосконалення свого управління</li></ul>
+  </div>
+</section>
+
+<section class="dark">
+  <div class="container">
+    <div class="section-head"><span class="eyebrow">Подарунки</span><h2>5 бонусів — <span class="accent">інструменти, а не просто файли</span></h2></div>
+    <div class="bonus-grid"><div class="bonus reveal"><div class="bonus-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 12v10H4V12"/><path d="M2 7h20v5H2z"/><path d="M12 22V7"/><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"/></svg></div><small>Бонус 01</small><h4>Тест «Лідер чи менеджер?»</h4><p class="bonus-desc">Побачите, яка позиція переважає у вашій поведінці, і свої зони лідерського зростання.</p></div><div class="bonus reveal"><div class="bonus-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 12v10H4V12"/><path d="M2 7h20v5H2z"/><path d="M12 22V7"/><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"/></svg></div><small>Бонус 02</small><h4>Тест «Мій стиль управління»</h4><p class="bonus-desc">Профіль за 4 стилями: директивний, демократичний, партнерський, делегувальний — сильні сторони й обмеження.</p></div><div class="bonus reveal"><div class="bonus-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 12v10H4V12"/><path d="M2 7h20v5H2z"/><path d="M12 22V7"/><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"/></svg></div><small>Бонус 03</small><h4>Практика «Цінності моєї команди»</h4><p class="bonus-desc">3–5 цінностей, конкретна поведінка під кожну та командні домовленості.</p></div><div class="bonus reveal"><div class="bonus-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 12v10H4V12"/><path d="M2 7h20v5H2z"/><path d="M12 22V7"/><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"/></svg></div><small>Бонус 04</small><h4>Чек-лист «Оцінка ефективності команди»</h4><p class="bonus-desc">Діагностика за 8 напрямами: цілі, ролі, довіра, комунікація, рішення, мотивація, взаємодія, результат.</p></div><div class="bonus reveal"><div class="bonus-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 12v10H4V12"/><path d="M2 7h20v5H2z"/><path d="M12 22V7"/><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"/></svg></div><small>Бонус 05</small><h4>Гайд «Як підбирати людей у команду»</h4><p class="bonus-desc">Профіль співробітника, запитання на співбесіді, перевірка мотивації та відповідальності, типові помилки найму.</p></div></div>
   </div>
 </section>
 
 <section class="white">
   <div class="container">
     <div class="section-head"><span class="eyebrow">Для кого</span><h2>Для кого <span class="accent">цей вебінар</span></h2></div>
-    <div class="chips reveal">
-      <span class="chip">Власники бізнесу</span>
-      <span class="chip">Керівники</span>
-      <span class="chip">HR</span>
-      <span class="chip">Підприємці</span>
-      <span class="chip">Керівники відділів</span>
-      <span class="chip">Ті, хто будує команду</span>
-    </div>
+    <div class="chips reveal"><span class="chip">Власники малого та середнього бізнесу</span><span class="chip">Керівники компаній і топменеджери</span><span class="chip">Керівники відділів та команд</span><span class="chip">HR-директори та HR-менеджери</span><span class="chip">Підприємці, які масштабують бізнес</span></div>
+    <p class="note-muted reveal">Вебінар для тих, хто вже має команду або досвід управління і хоче, щоб люди брали відповідальність без постійного контролю.</p>
   </div>
 </section>
 
@@ -397,10 +339,10 @@
       <div class="ribbon"><strong>Оксана Винницька</strong><span>Бізнес-коуч · ICF · Авторка Щоденника Лідера</span></div>
     </div>
     <div class="reveal">
-      <span class="eyebrow">Автор програми</span>
+      <span class="eyebrow">Спікерка</span>
       <h2 style="margin-top:16px;">Оксана Винницька</h2>
       <div class="role">Бізнес-коуч · ICF · ТОП-100 жінок України</div>
-      <p class="intro">Бізнес-коуч, топ бізнес-тренерка з продажів та лідерства з 11-річним досвідом у бізнесі та менторка лідерів. Допомагаю бізнесу підвищувати ефективність через системне навчання лідерства та продажів, і глибоку роботу з мисленням.</p>
+      <p class="intro">Бізнес-коуч ICF, бізнес-тренерка з лідерства, управління командами та продажів. Понад 11 років досвіду роботи з бізнесом, понад 120 компаній-клієнтів і 5000 учасників навчальних програм. Серед клієнтів — Nestlé (NBS Lviv), Cersanit, Columbia, Grand Hotel Lviv, Dacsa Group, Amway, «Еколавка».</p>
       <div class="stats">
         <div class="stat"><div class="num">11+</div><div class="label">років у бізнесі</div></div>
         <div class="stat"><div class="num">120+</div><div class="label">компаній-клієнтів</div></div>
@@ -436,43 +378,28 @@
   </div>
 </section>
 
-<section class="gray">
-  <div class="container">
-    <div class="section-head"><span class="eyebrow">Результат навчання</span><h2>Після <span class="accent">навчання</span></h2></div>
-    <div class="ba">
-      <div class="ba-col ba-before reveal"><h3>Було</h3><ul><li>Хаос</li><li>Текучка</li><li>Контроль</li><li>Випадкові люди</li><li>Постійні звільнення</li></ul></div>
-      <div class="ba-col ba-after reveal"><h3>Стало</h3><ul><li>Система</li><li>Сильна команда</li><li>Адаптація</li><li>Відповідальні співробітники</li><li>Прибуток</li></ul></div>
-    </div>
-  </div>
-</section>
-
-<section class="dark">
-  <div class="container">
-    <div class="section-head"><span class="eyebrow">Подарунки</span><h2>Бонуси <span class="accent">для учасників</span></h2></div>
-    <div class="bonus-grid">
-      <div class="bonus reveal"><div class="bonus-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 12v10H4V12"/><path d="M2 7h20v5H2z"/><path d="M12 22V7"/><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"/></svg></div><small>Бонус 01</small><h4>Чек-лист співбесіди</h4></div>
-      <div class="bonus reveal"><div class="bonus-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 12v10H4V12"/><path d="M2 7h20v5H2z"/><path d="M12 22V7"/><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"/></svg></div><small>Бонус 02</small><h4>Карта адаптації</h4></div>
-      <div class="bonus reveal"><div class="bonus-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 12v10H4V12"/><path d="M2 7h20v5H2z"/><path d="M12 22V7"/><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"/></svg></div><small>Бонус 03</small><h4>100 питань для інтерв'ю</h4></div>
-      <div class="bonus reveal"><div class="bonus-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 12v10H4V12"/><path d="M2 7h20v5H2z"/><path d="M12 22V7"/><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"/></svg></div><small>Бонус 04</small><h4>Шаблон Welcome Book</h4></div>
-      <div class="bonus reveal"><div class="bonus-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 12v10H4V12"/><path d="M2 7h20v5H2z"/><path d="M12 22V7"/><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"/></svg></div><small>Бонус 05</small><h4>Таблиця оцінки кандидатів</h4></div>
-    </div>
-  </div>
-</section>
-
 <section class="black final" id="registration">
   <div class="container final-wrap">
     <span class="eyebrow">Реєстрація</span>
-    <h2>Ваша команда може працювати <span class="accent">без постійного контролю</span></h2>
-    <p class="sub">Потрібна не удача, а система підбору, адаптації та управління людьми. Почніть будувати команду, яка дає результат, вже сьогодні.</p>
-    <div class="when"><span>26 листопада</span><span>18:30</span><span>онлайн</span></div>
+    <h2>Сильна команда починається <span class="accent">із сильного лідера</span></h2>
+    <p class="sub">Приєднуйтеся до практичного вебінару «Лідерство в умовах змін» і визначте, що саме змінити у своєму управлінні, щоб команда працювала на результат.</p>
+    <div class="when"><span>26 листопада</span><span>18:30</span><span>Zoom · 90–120 хв</span></div>
     <div class="pay-card">
       <h3>Вартість участі</h3>
-      <ul class="includes"><li>Вебінар-практикум онлайн</li><li>Шаблони та чек-листи</li><li>Запис вебінару</li><li>Бонуси</li></ul>
+      <ul class="includes"><li>Практичний вебінар у Zoom</li><li>Запис вебінару</li><li>5 бонусів: тести, практика, чек-лист, гайд</li></ul>
       <div class="pay-price"><span class="amount">550</span><span class="currency">грн</span></div>
-      <a href="https://secure.wayforpay.com/button/b9e74ced05035" target="_blank" rel="noopener" class="btn btn--block btn--lg">Зареєструватися <span class="arrow">→</span></a>
+      <a href="https://secure.wayforpay.com/button/b9e74ced05035" target="_blank" rel="noopener" class="btn btn--block btn--lg">Зареєструватися на вебінар <span class="arrow">→</span></a>
       <p class="pay-note">Безпечна оплата через WayForPay. Visa · Mastercard · Apple Pay · Google Pay.</p>
     </div>
     <p class="tg">Питання щодо участі: у Telegram <a href="https://t.me/oksanavynnytska">@oksanavynnytska</a></p>
+  </div>
+</section>
+
+
+<section class="white" id="faq">
+  <div class="container">
+    <div class="section-head"><span class="eyebrow">FAQ</span><h2>Часті <span class="accent">запитання</span></h2></div>
+    <div class="faq"><details class="faq-item reveal"><summary>Чи підходить вебінар власникам невеликого бізнесу?</summary><p>Так. Принципи лідерства та мотивації працюють і в команді з 3 людей, і у великій компанії.</p></details><details class="faq-item reveal"><summary>Чи буде корисним керівнику з досвідом?</summary><p>Так. Вебінар допоможе подивитися на свою модель управління збоку й знайти точки росту, які не видно зсередини.</p></details><details class="faq-item reveal"><summary>Чи потрібна попередня підготовка?</summary><p>Ні. Достатньо мати команду або досвід управління людьми. Візьміть блокнот: буде практика.</p></details><details class="faq-item reveal"><summary>Чи будуть практичні інструменти?</summary><p>Так: коучингові запитання, практика «Цінності моєї команди», тести та чек-листи, які можна застосувати одразу.</p></details><details class="faq-item reveal"><summary>Чи отримаю я запис вебінару?</summary><p>Так, запис надішлемо всім зареєстрованим учасникам після вебінару.</p></details><details class="faq-item reveal"><summary>Як отримати бонусні матеріали?</summary><p>Бонуси надсилаємо учасникам після вебінару разом із записом.</p></details><details class="faq-item reveal"><summary>Як відбувається оплата та реєстрація?</summary><p>Натисніть «Зареєструватися» і оплатіть участь (550 грн) через WayForPay — карткою, Apple Pay чи Google Pay. Після оплати ви отримаєте підтвердження, а посилання на Zoom надійде перед стартом.</p></details></div>
   </div>
 </section>
 
@@ -485,7 +412,7 @@
   <div>ФОП Винницька Оксана Іванівна · © 2026</div>
 </footer>
 
-<div class="sticky-cta" id="sticky-cta"><a href="https://secure.wayforpay.com/button/b9e74ced05035" class="btn">Забронювати · 550 грн <span class="arrow">→</span></a></div>
+<div class="sticky-cta" id="sticky-cta"><a href="https://secure.wayforpay.com/button/b9e74ced05035" class="btn">Зареєструватися · 550 грн <span class="arrow">→</span></a></div>
 
 <script>
 (function(){
